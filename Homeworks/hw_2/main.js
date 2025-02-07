@@ -168,19 +168,19 @@ console.log('Task 5____________');
 // Нормальних варіантів опису - 2.
 // Варіант, коли в вас буде одновимірний масив з 21 значенням вичключаємо одразу
 let week = [
-    [monday={morning: 3,noon: 6, evening: 3}],
-    [tuesday={morning: 2,noon: 7, evening: 1}],
-    [wednesday={morning:1,noon: 4, evening: 2}],
-    [thursday={morning: 4,noon: 5, evening: 4}],
-    [friday={morning: 3,noon: 6, evening: 3}],
-    [suturday={morning: 2,noon: 5, evening: 2}],
-    [sunday={morning: 1,noon: 4, evening: 3}]
+    {morning: 3,noon: 6, evening: 3},
+    {morning: 2,noon: 7, evening: 1},
+    {morning:1,noon: 4, evening: 2},
+    {morning: 4,noon: 5, evening: 4},
+    {morning: 3,noon: 6, evening: 3},
+    {morning: 2,noon: 5, evening: 2},
+    {morning: 1,noon: 4, evening: 3}
 ]
-console.log(week[0],monday.noon);
+console.log(week[0].noon);
 console.log(week[1]);
-console.log(week[2],wednesday.morning);
+console.log(week[2].morning);
 console.log(week[3]);
-console.log(week[4],friday.evening);
+console.log(week[4].evening);
 console.log(week[5]);
 console.log(week[6]);
 
