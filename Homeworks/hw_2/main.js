@@ -47,19 +47,11 @@ let boock11={
     title: 'qwe',
     pageCount: 123,
     genre: "qwert",
-    autors: [
-        [
-            autor1 = {
-                name: 'poiuyt',
-                age: 54,
-            },
-        ],
-        [
-            autor2 = {
-                name: 'lkjhg',
-                age: 56,
-            }
-        ]
+    autor: [
+        {
+            name: 'poiuyt',
+            age: 54,
+        }
     ]
 }
 console.log(boock11);
@@ -68,19 +60,11 @@ let boock22 = {
     title: "asd",
     pageCount: 345,
     genre: 'asdfgh',
-    autors: [
-        [
-            autor2 = {
-                name: 'asdert',
-                age: 67,
-            },
-        ],
-        [
-            autor3 = {
-                name: 'boob',
-                age: 76,
-            }
-        ]
+    autor: [
+        {
+            name: 'boob',
+            age: 76,
+        }
     ]
 }
 console.log(boock22);
@@ -89,19 +73,11 @@ let boock33 = {
     title: 'zxc',
     pageCount: 567,
     genre: 'zxcvbn',
-    autors: [
-        [
-            autor1 = {
-                name: 'tom',
-                age: 78,
-            },
-        ],
-        [
-            autor2 = {
-                name: 'petro',
-                age: 87,
-            }
-        ]
+    autor: [
+        {
+            name: 'tom',
+            age: 78,
+        }
     ]
 }
 console.log(boock33);
