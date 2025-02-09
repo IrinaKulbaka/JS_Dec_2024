@@ -114,7 +114,7 @@ let products = [
 // <img src="IMAGE" alt="" class="product-image">
 // </div>
 // Замість TITLE PRICE IMAGE - підставити відповідні поля з об'єкту
-//
+
 // --------------------
 
 for (const product of products) {
