@@ -107,7 +107,7 @@ let products = [
         image: 'https://yogiproducts.com/wp-content/uploads/2009/03/YT-US-CAR-RelaxedMind-C23-202201-V2-3DFront_withGlow-300DPI-1.png'
     },
 ];
-
+//
 // ШАБЛОН
 // <div class="product-card">
 //     <h3 class="product-title">TITLE. Price - PRICE</h3>
