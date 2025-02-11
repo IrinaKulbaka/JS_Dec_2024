@@ -157,7 +157,7 @@ function minNumbers(numbers) {
     return min;
 }
 
-console.log(minNumbers([12, 34, 65, 3, 78, 33, 7]));
+console.log(minNumbers([12, 34, 65, 3, 69, 33, 7]));
 console.log(minNumbers([34, 65, -8, 99, 32, 54, -9, 0]));
 
 
@@ -172,7 +172,6 @@ function sum(arr) {
     }
     return basket;
 }
-
 console.log(sum([1, 2, 10]));
 
 
