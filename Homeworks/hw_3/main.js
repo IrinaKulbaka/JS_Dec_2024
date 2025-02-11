@@ -15,7 +15,7 @@ document.write('___Task 2___');
 let arr = []
 for (let i = 0; i<10; i++) {
     document.write(`<div>
-                       <h3>${i} Hello!</h3>
+                       <h3>${i} Hello! </h3>
                        </div>`);
 }
 console.log(arr);
