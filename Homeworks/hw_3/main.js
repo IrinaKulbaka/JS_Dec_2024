@@ -69,13 +69,11 @@ document.write('___Task 5___');
 // щоб получився цілий список з даними з масиву
 // -----------------------------------------------
 let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+document.write(`<ul>`);
 for (const item of listOfItems) {
-    document.write(`<div>
-                        <ul>
-                            <li>${item}</li>
-                        </ul>
-                   </div>`)
+    document.write(`<li>${item}</li>`);
 }
+document.write(`</ul>`);
 
 
 console.log('_______Task 6_______');
