@@ -184,8 +184,8 @@ let exchange = (sumUAH,currencyValues,exchangeCurrency) => {
         let result = sumUAH/chosenCurrency.value;
         return result;
 }
-
 console.log(exchange(10000, [{currency: 'USD', value: 40}, {currency: 'EUR', value: 42}], 'USD'));
 console.log(exchange(10000, [{currency: 'USD', value: 40}, {currency: 'EUR', value: 42}], 'EUR'));
+
 
 
