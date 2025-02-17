@@ -348,6 +348,7 @@ let coursesArray = [
 console.log(coursesArray.filter(course => {
     return course.modules.includes('sass');
 }));
+
 console.log(coursesArray.filter(course => {
     return course.modules.includes('docker');
 }));
