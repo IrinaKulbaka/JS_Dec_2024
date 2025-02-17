@@ -16,7 +16,23 @@ printLengthArray(str2);
 console.log('------------');
 printLengthArray(str3);
 
-console.log('______Task 2______');
+// Перевірення ментором та зразок,
+// як вивести не кожен символкожного рядка,
+// а треба вивести довжину стринги
+let s1 = 'hello world';
+console.log(s1.length);
+let s2 = 'lorem ipsum';
+console.log(s2.length);
+let s3 = 'javascript is cool';
+console.log(s3.length);
+
+// або так:
+const strings = [s1, s2, s3];
+for (const s of strings) {
+    console.log(s.length)
+}
+
+    console.log('______Task 2______');
 // #8lld9HMxXWB
 // - Перевести до великого регістру наступні стрінгові значення
 // 'hello world', 'lorem ipsum', 'javascript is cool'
@@ -348,6 +364,7 @@ let coursesArray = [
 console.log(coursesArray.filter(course => {
     return course.modules.includes('sass');
 }));
+
 console.log(coursesArray.filter(course => {
     return course.modules.includes('docker');
 }));
