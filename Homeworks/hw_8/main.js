@@ -13,6 +13,7 @@ function cloner(obj) {
                 functions.push({functionClone,key});
             }
         }
+
         // console.log(functions);
         const cloneObj = JSON.parse(JSON.stringify(obj));
         // console.log(cloneObj);
