@@ -80,9 +80,13 @@ console.log('____________Task 4____________');
 
 for (const course of coursesAndDurationArray) {
     let divCourse = document.createElement('div');
+    divCourse.classList.add('item');
 
     let h1 = document.createElement('h1');
+    h1.classList.add('heading');
     let p = document.createElement('p');
+    p.classList.add('description');
+
     h1.innerText = course.title;
     p.innerText = course.monthDuration;
     divCourse.append(h1, p);
