@@ -116,7 +116,7 @@ fetch(url)
                 } else {
                     if (recipeKey !== 'image') {
                     const keyDiv = document.createElement('div');
-                    keyDiv.innerText = `${recipeDiv}: ${recipe[recipeKey]}`;
+                    keyDiv.innerText = `${recipeKey}: ${recipe[recipeKey]}`;
 
                     recipeDiv.appendChild(keyDiv);
                     }
